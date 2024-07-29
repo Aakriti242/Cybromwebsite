@@ -1,0 +1,532 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+
+
+.header{
+    background-color: rgb(3, 3, 96);
+    width: 80%;
+    margin: auto;
+    height: 100vh;
+}
+.nav{
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    width:85% ;
+    margin: auto;
+    padding: 30px  0px;
+
+}
+.logo{
+    
+    color: #fff;
+    font-size: 60px;
+    cursor: pointer;
+}
+.nav ul li{
+     list-style: none;
+     display: inline-block;
+     margin:0 25px;
+}
+.nav ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 130%;
+}
+.content{
+    margin-left: 8%;
+    margin-top: 8%;
+}
+.content h1{
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: 20px;
+
+}
+.content p{
+    color: #fff;
+    line-height: 22px;
+
+}
+.content button{
+    height: 15%;
+        background-color:#fff;
+    padding: 15px 20px;
+    font-weight: bold;
+    color: white;
+    margin: 30px 10px;
+    border-radius: 22px;
+    color: black;
+
+}
+.hero{
+    display: flex;
+}
+.img{
+    margin-top: 8%;
+    margin-left: 4%;
+}
+.about{
+    background-color: #F3F6FF;
+    width: 100%;
+    height: 100vh;
+}
+.about1{
+    padding: 35px 0px;
+    width: 80%;
+    margin: auto;
+    background-color: #fff;
+    display: flex;
+}
+.aboutmain{
+    margin-top: 8%;
+    margin-left: 2%;
+}
+.aboutmain h3{
+    font-size: 20px;
+    color: blue;
+}
+.aboutmain h1{
+    font-size: 30px;
+    margin-top: 1%;
+}
+.aboutmain p{
+    margin-top: 20px;
+    line-height: 22px;
+}
+.btnmain{
+    display: flex;
+}
+.btn1{
+    font-size: 30px;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    line-height: 35px;
+}
+.btn2{
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    line-height: 35px;
+}
+.aimage{
+    margin-top: 8%;
+    margin-left: 4%;
+}
+.aimage img{
+    width: 550px;
+}
+.start{
+    /* background-color:brown; */
+    width: 100%;
+    height: 60vh;
+
+}
+.start1{
+    background-color:rgb(2, 2, 74);
+    width: 80%;
+    height: 40vh;
+    margin: auto;
+    display: flex;
+}
+.startmain{
+    margin-left: 4%;
+    margin-top: 5%;
+    color: #fff;
+}
+.startmain p{
+    margin-top:2%;
+}
+ .em{
+    margin-top: 4%;
+    height: 40px;
+    width: 550px;
+    border-radius: 30px;
+    border: none;
+}
+.startimg{
+    margin-top: 3%;
+}
+.Service{
+    width: 100%;
+    height: 100vh;
+    /* background-color: aqua; */
+
+}
+.serv1{
+    width: 100%;
+    height: 10%;
+    /* background-color: blueviolet; */
+    /* align-items: center; */
+
+ }
+.serv1 h6{
+    padding-top: 10px;
+    margin-left: 45%;
+    font-size: 110%;
+}
+  
+.serv1 h1{
+    padding-top:15px;
+    margin-left:40%;
+}
+.serv2{
+    margin: auto;
+    width: 80%;
+    height: 90%;
+    /* background-color: blueviolet; */
+    display: flex;
+}
+.s1{
+    margin-top: 1%;
+    width: 32%;
+    height: 100%;
+    /* background-color: aquamarine; */
+}
+.s11{
+    width: 100%;
+    height: 49%;
+    background-color: aliceblue;
+    text-align: center;
+    border-radius: 8%;
+
+}
+.s11 h1{
+    margin-left: 16%;
+    padding-top: 42%;
+}
+.s11:hover{
+    background-color:rgb(3, 3, 96);
+    color: #fff;
+
+}
+
+.s12{
+    width: 100%;
+    height: 49%;
+    background-color: aliceblue;
+    margin-top: 2%;
+    text-align: center;
+    border-radius: 8%;
+
+}
+.s12 h1{
+    margin-left: 16%;
+    padding-top: 42%;
+}
+.s12 p{
+    margin-left: 5%;
+}
+.s12:hover{
+    background-color:rgb(3, 3, 96);
+    color: #fff;
+
+}
+button{
+    width: 30%;
+    height: 10%;
+    font-size:80%;
+    margin-top: 2%;
+    /* border: none; */
+    border-radius: 50%;
+    border: none;
+}
+button:hover{
+    background-color: #fff;
+}
+.s2{
+    margin-top: 1%;
+    width: 32%;
+    height: 100%;
+    /* background-color:chocolate; */
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.s21{
+    width: 100%;
+    height: 49%;
+    background-color: aliceblue;
+    text-align: center;
+    border-radius: 8%;
+
+
+}
+.s21 h1{
+    margin-left: 16%;
+    padding-top: 42%;
+}
+.s21 p{
+    margin-left: 5%;
+}
+.s21:hover{
+    background-color:rgb(3, 3, 96);
+    color: #fff;
+
+}
+.s22{
+    width: 100%;
+    height: 49%;
+    background-color: aliceblue;
+    margin-top: 2%;
+    text-align: center;
+    border-radius: 8%;
+
+
+}
+.s22 h1{
+    margin-left: 16%;
+    padding-top: 42%;
+}
+.s22 p{
+    margin-left: 5%;
+}
+.s22:hover{
+    background-color:rgb(3, 3, 96);
+    color: #fff;
+}
+.s3{
+    margin-top: 1%;
+    width: 32%;
+    height: 100%;
+    /* background-color:crimson; */
+}
+.s31{
+    width: 100%;
+    height: 49%;
+    background-color: aliceblue;
+    text-align: center;
+    border-radius: 8%;
+
+
+}
+.s31 h1{
+    margin-left: 16%;
+    padding-top: 42%;
+}
+.s31 p{
+    margin-left: 5%;
+}
+.s31:hover{
+    background-color:rgb(3, 3, 96);
+    color: #fff;
+
+}
+.s33{
+    width: 100%;
+    height: 49%;
+    margin-top: 2%;
+    text-align: center;
+    border-radius: 8%;
+    background-color: aliceblue;
+
+
+
+}
+.s33 h1{
+    margin-left: 16%;
+    padding-top: 42%;
+}
+.s33 p{
+    margin-left: 5%;
+}
+.s33:hover{
+    background-color:rgb(3, 3, 96);
+    color: #fff;
+
+}
+.project{
+    height: 250vh;
+    width: 100%;
+    background-color: rgb(250, 245, 245);
+    margin-top: 550px;
+  }
+  .p h3{
+    font-size: 20px;
+    color: blue;
+    text-align: center;
+    line-height: 40px;
+  }
+  .p h1{
+    text-align: center;
+    font-size: 35px;
+  }
+  
+  .div1{
+    background-color: rgb(252, 251, 253);
+      
+      height: 26%;
+      width: 80%;
+      display: flex;
+      margin-left: 140px
+  }
+  .project img {
+    height: 360px;
+    width: 340px;
+    border-radius: 15px;
+  
+  }
+  .div2{
+    background-color: rgb(245, 245, 245);
+    height: 26%;
+    width: 80%;
+    display: flex;
+    margin-left: 140px;
+  
+  
+  }
+  .b1{
+  
+    height: 360px;
+    width: 340px;
+    background: white;
+    margin: 1%;
+    border-radius: 15px;
+  
+  }
+  .client{
+    width: 100%;
+    height: 400px;
+    margin-top: 10%;
+    background-color: blue;
+    display: flex;
+    padding-left: 100px;
+  }
+  .client div{
+    height:250px ;
+    width: 350px;
+    border: 2px solid white;
+    border-radius: 10px; 
+    background-color: blue;
+    color: #fff;
+    margin: 1%;
+    margin-top: 70px;
+    
+  
+  }
+  
+  
+   .client .v2{
+    background-color: white;
+    color: black;
+  
+  }
+  .client .v2 h1{
+    color: blue;
+  }
+  .client .v2 p
+  {
+    color: black;
+  }
+  .client img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline;
+  }
+  .client h1{
+    font-size: 60px;
+    padding-left: 20px;
+    margin-top: 20px;
+    color: #fff;
+  
+  }
+  .client p{
+    color: #fff;
+    padding-left: 20px;
+    font-size: 20px;
+  
+  }
+  /*  team section start  
+    width: 100%;
+    height: 170vh;
+    background-color: aqua;
+    text-align: center;
+    line-height: 34px;
+  }
+  .sectionteam h3{
+    color: blue;
+  }
+  .sectionteam h1{
+    font-size: 34px;
+  }
+  .divteam{
+  
+    background-color: black;
+    width: 100%;
+    height: 600px;
+    margin-top: 80px;
+    display: flex;
+    padding-top: 160px;
+    padding-left: 50px;
+  }
+  .divteam div{
+    height: 400px;
+    width: 300px;
+    background-color: blue;
+    margin-left: 20px;
+   
+  } */
+  .team{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+  }
+  .t1{
+    height: 25%;
+    background-color: white;
+  }
+  .t1 p{
+    text-align: center;
+    color: blue;
+    padding-top: 2%;
+    font-size: 20px;
+  }
+  .t1 h1{
+  text-align: center;
+  font-size: 40px;
+  margin-top: 10px;
+  }
+  .t2{
+    display: flex;
+  }
+  .t3{
+    height: 450px;
+    width: 22%;
+    background-color: white;
+    margin-left: 7%;
+    margin-top: 7%;
+    border-radius: 3%;
+    box-shadow: 6px 6px 55px 10px rgb(91,74,136);
+  }
+  .t3:hover{
+    background-color: rgb(4,4,109);
+    color: white;
+  }
+  .t3 img{
+    height: 400px;
+    margin-left: 100px;
+    border-radius: 3%;
+    margin-top: -40px;
+    /* box-shadow: -1px -1px 25px 0 rgb(91, 74, 136); */
+  }
+    .t3 h2{
+      margin-left: 4%;
+      margin-top: 3%;
+    }
+    .t3 p{
+      margin-left: 4%;
+    }
+
+
+
